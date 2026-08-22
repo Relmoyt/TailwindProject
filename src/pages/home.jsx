@@ -1,24 +1,20 @@
 import React from "react";
-import navbar from "../components/navbar";
-import hero from "../components/heroSection";
-import footer from "../components/footer";
-import contact from "../components/contact";
-import aiTypes from "../components/aiTypes";
-import aiBenefits from "../components/aiBenefits";
+import Navbar from "../components/navbar";
+import HeroSection from "../components/heroSection";
+import AiTypes from "../components/aiTypes";
+import AiBenefits from "../components/aiBenefits";
 
-function home() {
-    return {
-        <>
-        <navbar />
-        <main>
-          <hero />
-          <aiTypes />
-          <aiBenefits />
-          <contact />
-        </main>
-        <footer />
-        </>
-    }
+function Home() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <AiTypes />
+        <AiBenefits />
+      </main>
+    </>
+  );
 }
 
-export default home
+export default Home;

@@ -1,9 +1,7 @@
 import React from "react";
 
-function hero() {
-    return {
-        <div>hero</div>
-    }
+function HeroSection() {
+  return <div>HeroSection</div>;
 }
 
-export default hero
+export default HeroSection;

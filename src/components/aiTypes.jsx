@@ -1,9 +1,7 @@
 import React from "react";
 
-function aiTypes() {
-    return {
-        <div>aiTypes</div>
-    }
+function AiTypes() {
+  return <div>AiTypes</div>;
 }
 
-export default aiTypes
+export default AiTypes;
