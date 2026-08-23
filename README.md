@@ -11,4 +11,4 @@ Learning stuff, breaking stuff, fixing stuff... sometimes.
 - Vite
 - JavaScript
 
-> This project has no purpose. I'm just learning.
+> This project has no purpose. I'm just Bored.
